@@ -20,9 +20,14 @@ pulled apart when a message pane changes width.
 | `thrad-sig-amara.jpg` | Amara Parker, Head of Client Relations |
 | `thrad-sig-abhinav.jpg` | Abhinav Khushalani, Founding Engineer |
 | `thrad-sig-gabriel.jpg` | Gabriel Chawla, AI Operations Engineer |
+| `thrad-sig-danny.jpg` | Danny Wang, Founding Designer |
 
-Each is 880 x 316 pixels, a 440 x 158 design rendered at 2x for retina screens,
-JPEG quality 0.50, about 39 KB.
+Each is 1760 x 632 pixels: a 440 x 158 design exported at 4x from Paper (file
+"Thrad Email Signatures"), JPEG quality 80, about 165 KB. The signature displays
+at up to 560 CSS pixels, so the image carries 3.14 device pixels per CSS pixel:
+sharp on retina laptops, 4K monitors and TVs, and under browser zoom up to about
+150 percent. The aspect ratio, 2.785, never changes, so a new export can replace
+a file in place without anyone reinstalling.
 
 ## Serving
 
@@ -35,7 +40,7 @@ recompress these files: every installed signature would break.
 
 ## Regenerating
 
-The source, the renderer and the tests live outside this repository, in
-`~/Projects/thrad-signatures`. Editing the roster and running `npm run cards`
-rewrites every card from one renderer at one locked geometry, so the eight can
-never drift apart.
+The design lives in Paper, one artboard per person duplicated from the master.
+Change the text, export at 4x as PNG, then run `test/paper_cards.py` in
+`~/Projects/thrad-signatures`: it fails unless the logo, tagline and painting are
+pixel-identical to the reference card and the contact block keeps its clearance.
