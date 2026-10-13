@@ -22,8 +22,8 @@ pulled apart when a message pane changes width.
 | `thrad-sig-gabriel.jpg` | Gabriel Chawla, AI Operations Engineer |
 | `thrad-sig-danny.jpg` | Danny Wang, Founding Designer |
 
-Each is 1520 x 544 pixels: a 380 x 136 design set in Inter, the wordmark's own
-typeface, exported at 4x from Paper (file "Thrad Email Signatures"), JPEG quality
+Each is 1520 x 544 pixels: a 380 x 136 design set in Geist (chosen by Gabriel
+over Inter, 13 Oct), exported at 4x from Paper (file "Thrad Email Signatures"), JPEG quality
 80, about 130 KB. The signature displays at up to 380 CSS pixels, the design size,
 so the contact lines sit at 12.5px next to 14px email text, and the image carries
 4 device pixels per CSS pixel: sharp on retina laptops, 4K monitors, TVs, and
