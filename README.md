@@ -22,12 +22,13 @@ pulled apart when a message pane changes width.
 | `thrad-sig-gabriel.jpg` | Gabriel Chawla, AI Operations Engineer |
 | `thrad-sig-danny.jpg` | Danny Wang, Founding Designer |
 
-Each is 1760 x 632 pixels: a 440 x 158 design exported at 4x from Paper (file
-"Thrad Email Signatures"), JPEG quality 80, about 165 KB. The signature displays
-at up to 560 CSS pixels, so the image carries 3.14 device pixels per CSS pixel:
-sharp on retina laptops, 4K monitors and TVs, and under browser zoom up to about
-150 percent. The aspect ratio, 2.785, never changes, so a new export can replace
-a file in place without anyone reinstalling.
+Each is 1520 x 544 pixels: a 380 x 136 design set in Inter, the wordmark's own
+typeface, exported at 4x from Paper (file "Thrad Email Signatures"), JPEG quality
+80, about 130 KB. The signature displays at up to 380 CSS pixels, the design size,
+so the contact lines sit at 12.5px next to 14px email text, and the image carries
+4 device pixels per CSS pixel: sharp on retina laptops, 4K monitors, TVs, and
+under browser zoom. Keep the 380 x 136 shape: a new export can then replace a
+file in place without anyone reinstalling.
 
 ## Serving
 
